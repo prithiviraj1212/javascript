@@ -1,0 +1,15 @@
+2.JS ARRAY AND STRING METHODS(REMAINING)
+
+Automatic toString()
+JavaScript automatically converts an array to a comma separated string when a primitive value is expected.
+
+trim()	-	Removes whitespace from both ends of a string
+valueOf()	-	Returns the primitive value of a String object
+startsWith()-	Checks whether a string begins with specified characters
+substr()	-	Extracts the characters from a string, beginning at a specified start position, and through the specified number of character
+lastIndexOf()	-Returns the position of the last found occurrence of a specified value in a string
+localeCompare()	-Compares two strings in the current locale
+match()	                 -Searches a string for a match against a regular expression, and returns the matches
+repeat()	 	-Returns a new string with a specified number of copies of an existing string
+
+
