@@ -1,0 +1,87 @@
+1.console.log()
+     The console.log() is a function in js which is used to print any kind of variables defined before in it or to just print any message that needs to be displayed
+   console.warn()
+      The console.warn() method is used to write a warning message in the console. So open the console to display the output (warning message).
+
+
+2.diff b/w var const and let
+
+    var-
+
+         The scope is global when a var variable is declared outside a function. This means that any variable that is declared with var outside a function block is available for use in the whole window.
+eg;
+      var tester = "hey hi";
+    
+    function newFunction() {
+        var hello = "hello";
+    }
+    console.log(hello); // error: hello is not defined
+
+    var variables can be redeclared.VAR are locally/globally scoped
+
+LET-
+        let is block scoped
+A block is a chunk of code bounded by {}. A block lives in curly braces. Anything within curly braces is a block.
+
+eg;
+        let greeting = "say Hi";
+   let times = 4;
+
+   if (times > 3) {
+        let hello = "say Hello instead";
+        console.log(hello);// "say Hello instead"
+    }
+   console.log(hello) // hello is not defined
+
+let can be updated but not re-declared.
+
+
+CONST
+            Variables declared with the const maintain constant values. const declarations share some similarities with let declarations.
+
+const declarations are block scoped
+Like let declarations, const declarations can only be accessed within the block they were declared.
+
+const cannot be updated or re-declared
+
+EG:
+
+     const greeting = "say Hi";
+    greeting = "say Hello instead";// error: Assignment to constant variable. 
+
+
+3.Datatyps in JS
+
+         JavaScript Strings:
+
+A string (or a text string) is a series of characters like "prithiv".
+
+Strings are written with quotes. You can use single or double quotes.
+
+        JavaScript Numbers:
+
+JavaScript has only one type of numbers.
+
+Numbers can be written with, or without decimals.
+
+       JavaScript Booleans:
+Booleans can only have two values: true or false.
+
+       JavaScript Arrays:
+JavaScript arrays are written with square brackets.
+
+Array items are separated by commas.
+
+      JavaScript Objects:
+JavaScript objects are written with curly braces {}.
+
+Object properties are written as name:value pairs, separated by commas.
+
+     Undefined:
+In JavaScript, a variable without a value, has the value undefined. The type is also undefined.
+
+    Null:
+In JavaScript null is "nothing". It is supposed to be something that doesn't exist.
+
+Unfortunately, in JavaScript, the data type of null is an object.
+        
