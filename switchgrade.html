@@ -1,0 +1,35 @@
+<html>
+<body>
+    <h2>prog to find grade</h2>
+    <script>
+         function mygrade(marks)
+         {
+         switch(true)
+         {
+        case (marks>=90):
+          grade ='a';
+          console.log(grade);
+          break;
+        case ((marks>=80) && (marks<90)):
+          grade ='b';
+          console.log(grade);
+          break;
+        case ((marks>=70) && (marks<80)):
+          grade ='c';
+          console.log(grade);
+          break;
+         case ((marks>=60) && (marks<70)):
+          grade ='d';
+          console.log(grade);
+          break;  
+        case ((marks>=50) && (marks<60)):
+          grade ='e';
+          console.log(grade);
+          break; 
+       default:
+          return 'failed';
+        }
+         }
+        var c=prompt("enter your marks");
+        var e=mygrade(c)
+    </script>      

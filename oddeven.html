@@ -1,0 +1,25 @@
+<html>
+<body>
+    <h2>prog to find odd or even</h2>
+    <script>
+      function oddeven(num)
+      {
+          let rem=num%2;
+          if(rem==0)
+          {
+            console.log(`the num is ${num} and even`);
+          }
+        else if (rem == Math.round(rem)) 
+        {
+            console.log(`the num is ${num}and odd`);
+        }
+      else{
+          console.log('invalid  num');
+      }
+      }
+      var c=window.prompt("enter a number");
+      var d=oddeven(c);
+    
+    </script>
+</body>
+</html>
