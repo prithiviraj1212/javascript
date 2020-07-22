@@ -1,0 +1,87 @@
+  <html>  
+
+    <head> 
+
+        <title>  
+
+         To change the background color 
+
+            after clicking the button  
+
+        </title> 
+
+    </head>  
+
+      
+
+    <body style = "text-align:center;"> 
+
+           
+
+        <h1 style = "color:green;" >  
+
+            prithivraj 
+
+        </h1>  
+
+          
+
+        <p id = "pkp_UP" style = 
+
+            "font-size: 20px; font-weight: bold;">      
+
+        </p> 
+
+          
+
+        <button onclick = "pkp_Run()">  
+
+            Click  
+
+        </button> 
+
+          
+
+        <p id = "pkp_DOWN" style = 
+
+            "color:green; font-size: 20px; font-weight: bold;"> 
+
+        </p> 
+
+          
+
+        <script> 
+
+            var el_up = document.getElementById("pkp_UP"); 
+
+            var el_down = document.getElementById("pkp_DOWN"); 
+
+            var str = "Click on button to change the background color"; 
+
+          
+
+            el_up.innerHTML = str; 
+
+          
+
+            function changeColor(color) { 
+
+                document.body.style.background = color; 
+
+            } 
+
+              
+
+            function pkp_Run() { 
+
+                changeColor('red'); 
+
+                el_down.innerHTML = "Background Color changed"; 
+
+            }          
+
+        </script>  
+
+    </body>  
+
+</html>                   
